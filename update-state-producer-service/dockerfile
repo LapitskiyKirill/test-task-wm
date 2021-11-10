@@ -1,0 +1,3 @@
+FROM openjdk:11
+COPY target/challenge-producer-2.4.4.jar producer
+ENTRYPOINT ["java","-jar","producer"]
